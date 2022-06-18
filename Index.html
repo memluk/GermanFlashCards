@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS-Course-ReDi</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <!-- <h1>I'm learning JavaScript:</h1> -->
+        <table class="table">
+            <tr style="background-color: white;"><td colspan="4"><h1>I'm learning JavaScript:</h1></td></tr>
+            <tr><td colspan="4"><h2 style="text-align: center;">CardList</h2></td></tr>
+            <tr>
+                <td>EN: </td>
+                <td><input id="inputLayer"></td>
+                <td>Type: </td>
+                <td><select id="inputType">
+                    <option> </option>
+                    <option style="color:#00FF00;">noun</option>
+                    <option style="color:#00FFFF;">verb</option>
+                    <option style="color:#FF8C00;">adjective</option>
+                    <option style="color:#0000FF;">adverb</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>DE: </td>
+                <td><input id="inputCover"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr><td></td><td><button onclick="addNewCard()">Add a New Card!</button></td><td colspan="2"><button onclick="showNewCard()">Show a New Card!</button></td></tr>
+        </table>
+        <div style="padding-top: 160px;"></div>
+        <div id="wordList"></div>
+
+		<script src="main.js"></script>
+    </body>
+</html>
