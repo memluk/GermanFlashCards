@@ -1,0 +1,24 @@
+body {margin-top: 0; padding-top: 0;}
+.card {
+  position: relative;
+  width: 250px;
+  height: 100px;
+  font-size: 1.5 rem;
+}
+
+.fillParent {
+  position: absolute;         /* commutative*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.layer { outline: 1px solid black; color: white; }
+.cover { color: white; }
+.header {position: fixed;}
+.table { position: fixed; background-color: silver; z-index: 1; border-spacing: 0;}
+#wordList {padding-top: 80px; padding-left: 2px;}
